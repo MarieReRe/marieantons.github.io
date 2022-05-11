@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  #page-container {
+    position: relative;
+    min-height: 200px;
+  }
+  #content-wrapper {
+    padding-bottom: 300px; /* Footer height so that text does not go behind */
+  }
+
+/*HEADER STYLING*/
+header {
+    background-color: #fcfcfc;
+    height: 75px;
+    position: relative;
+    width: 100%;
+    padding-left: 350px;
+    padding-right: 350px;
+    overflow: hidden;
+  }
+nav{
+    text-align: center;
+}
+nav a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+  }
+/*BODY STYLING*/
+h1 {
+color: darkcyan;
+text-align: center;
+/*Responsive sizing */
+font-size: 10vw;
+}
